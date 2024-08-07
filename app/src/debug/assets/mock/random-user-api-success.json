@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Dungeon Master",
+        "first": "Van",
+        "last": "Darkholm"
+      },
+      "location": {
+        "street": {
+          "number": 3446,
+          "name": "Maunganui Road"
+        },
+        "city": "Hastings",
+        "state": "Bay of Plenty",
+        "country": "New Zealand",
+        "postcode": 34145,
+        "coordinates": {
+          "latitude": "51.3951",
+          "longitude": "-10.5752"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "deepdarkfantasy@test.com",
+      "login": {
+        "uuid": "2d558514-5683-4932-a448-4b1b37a065be",
+        "username": "crazylion376",
+        "password": "debra",
+        "salt": "uyHmKmjz",
+        "md5": "ced6253c0935290081d39e9d21ac4fdc",
+        "sha1": "45aaced26a1c803637a4a9d92d0b9f18e30c864b",
+        "sha256": "70f669518e524251741e42be9034c08fa93f2d32a2f5f07bb6d4c47b2d215186"
+      },
+      "dob": {
+        "date": "1986-09-24T07:07:13.755Z",
+        "age": 37
+      },
+      "registered": {
+        "date": "2004-07-12T16:36:59.693Z",
+        "age": 20
+      },
+      "phone": "(246)-033-7805",
+      "cell": "(205)-393-1445",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/ba8fcd3e-f7f5-438f-9d8b-71636089f664/3840x",
+        "medium": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/ba8fcd3e-f7f5-438f-9d8b-71636089f664/3840x",
+        "thumbnail": "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/ba8fcd3e-f7f5-438f-9d8b-71636089f664/3840x"
+      },
+      "nat": "NZ"
+    }
+  ],
+  "info": {
+    "seed": "33879a0fa4afb606",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

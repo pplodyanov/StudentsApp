@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Gertrude",
+        "last": "Bradley"
+      },
+      "location": {
+        "street": {
+          "number": 3837,
+          "name": "Shady Ln Dr"
+        },
+        "city": "Tyler",
+        "state": "Georgia",
+        "country": "United States",
+        "postcode": 49150,
+        "coordinates": {
+          "latitude": "86.0575",
+          "longitude": "109.1583"
+        },
+        "timezone": {
+          "offset": "+4:30",
+          "description": "Kabul"
+        }
+      },
+      "email": "gertrude.bradley@example.com",
+      "login": {
+        "uuid": "513a6be3-6c0d-40ff-845b-38b3766373e7",
+        "username": "redelephant584",
+        "password": "flanker",
+        "salt": "WdYd80Fr",
+        "md5": "1ff4bc970c18cd78a08d41c895295539",
+        "sha1": "0d81562346141e297dcea09ad8fe1ce3be457b37",
+        "sha256": "e5f7d02c118423f49b59585ab4a31da71b34cd71c2ffcfa5f5a3e70919c94e5d"
+      },
+      "dob": {
+        "date": "1983-09-20T19:19:24.956Z",
+        "age": 40
+      },
+      "registered": {
+        "date": "2006-11-20T22:46:28.352Z",
+        "age": 17
+      },
+      "phone": "(532) 529-4740",
+      "cell": "(614) 289-2681",
+      "id": {
+        "name": "SSN",
+        "value": "156-08-6269"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/47.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/47.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/47.jpg"
+      },
+      "nat": "US"
+    }
+  ],
+  "info": {
+    "seed": "3f0eea394611318f",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

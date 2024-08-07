@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Julio",
+        "last": "Rodríguez"
+      },
+      "location": {
+        "street": {
+          "number": 1561,
+          "name": "Avenida del Planetario"
+        },
+        "city": "Pontevedra",
+        "state": "Cantabria",
+        "country": "Spain",
+        "postcode": 50623,
+        "coordinates": {
+          "latitude": "-34.3157",
+          "longitude": "-131.4146"
+        },
+        "timezone": {
+          "offset": "-3:30",
+          "description": "Newfoundland"
+        }
+      },
+      "email": "julio.rodriguez@example.com",
+      "login": {
+        "uuid": "ac523b37-99e6-4b79-a5d5-7f6f8389bac5",
+        "username": "smallgoose542",
+        "password": "eggman",
+        "salt": "MM4zREMy",
+        "md5": "023962e944420fdf4e8b252d12d2db66",
+        "sha1": "b20f893078047693ebbd91f08059e30f3db1a6d8",
+        "sha256": "cce974e2bb22184f3c4aadd58ae86db992a7d5e8ba979aca3a7cced19700aace"
+      },
+      "dob": {
+        "date": "1999-08-03T08:25:18.845Z",
+        "age": 25
+      },
+      "registered": {
+        "date": "2010-09-20T01:53:21.065Z",
+        "age": 13
+      },
+      "phone": "952-557-673",
+      "cell": "687-508-886",
+      "id": {
+        "name": "DNI",
+        "value": "84708731-U"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/94.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/94.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/94.jpg"
+      },
+      "nat": "ES"
+    }
+  ],
+  "info": {
+    "seed": "59eeeb64703ccb42",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

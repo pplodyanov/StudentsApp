@@ -16,6 +16,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunnerArguments clearPackageData: 'true'
     }
 
     buildTypes {
@@ -30,6 +31,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = '17'
+    }
+    testOptions {
+        animationsDisabled = true
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
     }
 }
 
@@ -62,8 +67,25 @@ dependencies {
     //room library
     implementation 'androidx.room:room-runtime:2.5.1'
     implementation 'androidx.room:room-ktx:2.5.1'
+    implementation 'androidx.test:monitor:1.7.1'
+    implementation 'androidx.test.ext:junit-ktx:1.2.1'
     kapt 'com.github.bumptech.glide:compiler:4.12.0'
     implementation 'androidx.databinding:baseLibrary:3.2.0-alpha11'
     kapt 'androidx.room:room-compiler:2.5.1'
-
+    //orchestrator
+    androidTestUtil 'androidx.test:orchestrator:1.4.2'
+    //runner
+    androidTestImplementation("androidx.test:runner:1.6.1")
+    //wiremock
+    androidTestImplementation("com.github.tomakehurst:wiremock:2.23.0") {
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+    }
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+    //Kaspresso
+    androidTestImplementation 'com.kaspersky.android-components:kaspresso:1.5.3'
+    androidTestImplementation "com.kaspersky.android-components:kaspresso-allure-support:1.5.3"
+    androidTestImplementation "com.kaspersky.android-components:kaspresso-compose-support:1.5.3"
+    androidTestImplementation('org.hamcrest:hamcrest:3.0')
 }

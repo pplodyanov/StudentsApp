@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Chaithra",
+        "last": "Pujari"
+      },
+      "location": {
+        "street": {
+          "number": 6213,
+          "name": "Rajpur Rd"
+        },
+        "city": "Bidhannagar",
+        "state": "Puducherry",
+        "country": "India",
+        "postcode": 18148,
+        "coordinates": {
+          "latitude": "4.7952",
+          "longitude": "22.5956"
+        },
+        "timezone": {
+          "offset": "+9:00",
+          "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+        }
+      },
+      "email": "chaithra.pujari@example.com",
+      "login": {
+        "uuid": "2b1e9b2c-157c-48ee-a3e5-a60fd45b6495",
+        "username": "goldenmouse482",
+        "password": "tommy1",
+        "salt": "uBUF34zp",
+        "md5": "0a4039f77c6b9657637adaa23585513c",
+        "sha1": "df16aa245885cbb12b5f61ba1d1ee09cda1316cd",
+        "sha256": "1b4d6686182bac833d73494373f25e757eecc15801bc3b74ce9be9007c755a16"
+      },
+      "dob": {
+        "date": "1947-04-27T13:28:17.924Z",
+        "age": 77
+      },
+      "registered": {
+        "date": "2021-02-24T09:42:02.810Z",
+        "age": 3
+      },
+      "phone": "7374263687",
+      "cell": "9395546302",
+      "id": {
+        "name": "UIDAI",
+        "value": "052103528344"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/79.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/79.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/79.jpg"
+      },
+      "nat": "IN"
+    }
+  ],
+  "info": {
+    "seed": "0ecc97bbfcdcc4d7",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
